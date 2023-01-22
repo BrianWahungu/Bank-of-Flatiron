@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+# Bank of Flatiron
+## Description
+This application displays a list of recent bank transactions, allows users to search for a description matching the search term, and add a new transaction to the table.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## User Story
+- The user sees a displayed list of all bank transactions.
+- The user can search for a description matching the search item at search box.
+- The user is able to fill out and submit the form to add a new transaction to list of all transactions.
 
-## Available Scripts
+## Development Requirements
+- Visual Studio Code.
+- npm
+- Browser(Chrome or any other Chromium based Browser)
 
-In the project directory, you can run:
+## Development Installation
+To get the code..
 
-### `npm start`
+1. Got to the following github repository to access the files.
+```bash
+        https://github.com/IvyW2/Bank-of-Flatiron
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2. Fork and Clone the repository above to your local computer.
+```bash
+        git clone git@github.com:IvyW2/Bank-of-Flatiron.git
+```
+3. Move to the folder where you cloned the files and install requirements and make sure you are in the below directory:
+```bash
+    cd Bank-of-Flatiron/
+```
+4. Open the folder in VS Code using the command
+```bash
+    code .
+```
+## Running the application
+5. Once in the VS Code you can ran npm start to run the React application.
+```bash
+    npm start
+```
+6. Or open the application on your browser:https://bank-of-flatiron-eight.vercel.app/
+- You can now interact with the application and make the necessary operations.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technology used
+- [HTML5](https://www.python.org/)
+- [Javascript](https://www.heroku.com/)
+- [CSS](https://www.heroku.com/)
+- [React](https://reactjs.org/)
 
-### `npm test`
+## Author
+Project contributed to by:[Ivy Wambugha Thoya](https://github.com/IvyW2/)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Licence
+This project is licensed under the ISC licence.
