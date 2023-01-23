@@ -2,7 +2,7 @@ import React from 'react'
 
 const RecordsTable = ({transactions}) => {
   return (
-  <table class="table mt-3">
+  <table class="table mt-3 majaribu">
   <thead>
     <tr>
       <th scope="col">ID</th>
@@ -11,7 +11,7 @@ const RecordsTable = ({transactions}) => {
       <th scope="col">DESCRIPTION</th>
     </tr>
   </thead>
-  <tbody>
+  <tbody className='majaribu'>
     {transactions.map((transaction) => <tr>
       <td>{transaction.id}</td>
       <td>{transaction.category}</td>

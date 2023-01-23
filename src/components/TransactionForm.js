@@ -35,7 +35,7 @@ const TransactionForm = ({lastIdx, addTransaction}) => {
     </select>
     <label>amount</label>
     <input type='number' className='form-control' onChange={(e)=> setAmount(e.target.value)}></input>
-    <button onClick={() => newTransaction()} className='btn btn-primary mt-3 w-100'>Add Transaction</button>
+    <button onClick={() => newTransaction()} className='btnn'>Add Transaction</button>
     </>
   )
 }

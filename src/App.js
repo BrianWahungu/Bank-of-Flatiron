@@ -2,7 +2,8 @@ import { useEffect, useState } from 'react';
 import RecordsTable from './components/table';
 import TransactionForm from './components/TransactionForm';
 import { BASE_URL } from './constants';
-import logo from './logo.svg';
+import "./App.css"
+// import logo from './logo.svg';
 
 function App() {
   const [ transactions, setTransactions ] = useState([])
@@ -35,17 +36,17 @@ function App() {
 
   return (
     <div className="App">
-      <header className="bg-warning header">
-        <h2 >Bank of Flatiron</h2>
+      <header className="header">
+        <h2 className='kichwa'>The Bank of Flatiron</h2>
       </header>
       <div className='row m-4'>
-        <div className='col-4'>
-          <TransactionForm lastIdx={transactions.length} addTransaction={addTransaction}/>
-        </div>
         <div className='col-8'>
-          <label>Search</label>
-          <input className='form-control' onChange={(e) => filterRecord(e.target.value)}></input>
+          <input className='searchh' onChange={(e) => filterRecord(e.target.value)} placeholder="Search for Transactions"></input>
+          <button type='submit'>Search</button>
           <RecordsTable transactions={filteredTransactions}/>
+        </div>
+        <div className='col-4 meza'>
+          <TransactionForm lastIdx={transactions.length} addTransaction={addTransaction}/>
         </div>
 
       </div>
